@@ -12,6 +12,7 @@ import { ListsegurancaPage } from '../pages/listseguranca/listseguranca';
 import { InfoInventoryPage } from '../pages/info-inventory/info-inventory';
 import { InfoSecurityPage } from '../pages/info-security/info-security';
 
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -25,7 +26,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListInventarioPage,
     ListsegurancaPage,
     InfoInventoryPage,
-    InfoSecurityPage
+    InfoSecurityPage,
+    
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListInventarioPage,
     ListsegurancaPage,
     InfoInventoryPage,
-    InfoSecurityPage
+    InfoSecurityPage,
+    
   ],
   providers: [
     StatusBar,

@@ -3,23 +3,24 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Segurança</ion-title>
+    <ion-title>Cadastrar</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-
-
-    <button ion-item [navPush]="securityPage">
-      <ion-icon name='camera' item-start style="color: #000000"></ion-icon>
-      <ion-label>Camera 1</ion-label>
-    </button>
+  
 
     <button ion-item [navPush]="securityPage">
       <ion-icon name='camera' item-start style="color: #000000"></ion-icon>
-      <ion-label>Camera 2</ion-label>
+      <ion-label>Camera</ion-label>
     </button>
+
+    <button ion-item [navPush]="inventoryPage">
+      <ion-icon  name='home' item-start style="color: #55acee"></ion-icon>
+      <ion-label>Inventario</ion-label>
+    </button>
+
 
 
   </ion-list>

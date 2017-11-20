@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Inventario</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+
+    <button ion-item [navPush]="infoInventory">
+      <ion-icon name='home' item-start style="color: #55acee"></ion-icon>
+      <ion-label>Inventario 1 </ion-label>
+    </button>
+
+    <button ion-item [navPush]="infoInventory">
+      <ion-icon name='home' item-start style="color: #55acee"></ion-icon>
+      <ion-label>Inventario 2</ion-label>
+    </button>
+    <button ion-item [navPush]="infoInventory">
+      <ion-icon name='home' item-start style="color: #55acee"></ion-icon>
+      <ion-label>Inventario 3</ion-label>
+    </button>
+
+
+  </ion-list>
+</ion-content>

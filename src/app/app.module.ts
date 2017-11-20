@@ -5,6 +5,12 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { List2Page } from '../pages/list2/list2';
+import { List3Page } from '../pages/list3/list3';
+import { ListInventarioPage } from '../pages/list-inventario/list-inventario';
+import { ListsegurancaPage } from '../pages/listseguranca/listseguranca';
+import { InfoInventoryPage } from '../pages/info-inventory/info-inventory';
+import { InfoSecurityPage } from '../pages/info-security/info-security';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -13,7 +19,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    List2Page,
+    List3Page,
+    ListInventarioPage,
+    ListsegurancaPage,
+    InfoInventoryPage,
+    InfoSecurityPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +35,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    List2Page,
+    List3Page,
+    ListInventarioPage,
+    ListsegurancaPage,
+    InfoInventoryPage,
+    InfoSecurityPage
   ],
   providers: [
     StatusBar,
